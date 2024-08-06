@@ -1,0 +1,463 @@
+<nav><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Foods</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-info fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light fw-bold fs-4" href="#"><i class="fa-solid fa-bowl-food fa-fade"></i>Tasty Foods</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="#carouselExampleDark">Home</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#Order">Orders</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#Juices">Juices</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menus
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item bg-dark text-light" href="#">Rice Items</a></li>
+                  <br>
+                  <li>Biryani</li>
+                  <li>Mandhi</li>
+                  <li>Geerise</li>
+                  <li><a class="dropdown-item bg-dark text-light" href="#">Chicken Items</a></li>
+                  <br>
+                  <li>Alfahm</li>
+                  <li>Mutton</li>
+                  <li>Fish</li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item bg-dark text-light" href="#">Sides</a></li>
+                  <br>
+                  <li>Chamandhi</li>
+                  <li>Achar</li>
+                  <li>Thayr</li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" <a href="#Footer" aria-disabled="true">Location</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" class="form-control" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<br><br><br><br><br><br>
+      <!-- hero -->
+
+      <div class="px-3 h-10 text-center m-2 w-100">
+        <h1>Tasty Food.</h1>
+        <p class="lead text-body fs-4">Source Often called "the world's most delicious dish,
+          " Rendang is prepared by simmering beef with 
+          coconut milk with a mixture of the best of spices including turmeric, garlic, lemongrass, ginger, chillies,
+           and galangal. The dish is then stewed for a few hours which gives it a tender texture and exotic taste.</p>
+        <p class="lead">
+          <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
+        </p>
+      </div>
+
+       <!-- carousal -->
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img height="400px" src="https://seoimgak.mmtcdn.com/blog/sites/default/files/images/Veg-Dishes.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="text-dark">Non Veg Items</h2>
+              <p class="text-dark">Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img height="400px" src="https://assets.zeezest.com/blogs/PROD_Veg-Food-Banner_1645021052320.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="text-dark">Veg Options</h2>
+              <p class="text-dark">Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img height="400px" src="https://ik.imagekit.io/awwybhhmo/satellite_images/chinese/beyondmenu/hero/2.jpg?tr=w-3840,q-50" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="text-dark">Chines Foods</h2>
+              <p class="text-dark">Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+
+
+
+
+
+    
+
+      <!-- order section -->
+
+      
+
+      
+
+
+      <div class="container-fluid bg-light">
+        <br>
+
+        <h1 class="text-center fs-2 text-dark">Order Your Foods Now...!</h1>
+        <br>
+        
+
+        <div class="row ms-5" id="Order">
+
+            <div class="col-3 ">
+
+              <div class="card text-center border border-2 border-warning bg-dark" style="width: 18rem;">
+                <img height="190px" src="https://c.ndtvimg.com/2022-04/fq5cs53_biryani-doubletree-by-hilton_625x300_12_April_22.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Chicken Biryani</h5>
+                  <p class="card-text text-light">Tasty Chicken Biryani.</p>
+                  <h5 class="card-title text-danger">Rs: 199.00</h5>
+                  <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-3">
+              
+                <div class="card text-center border border-2 border-warning " style="width: 18rem;">
+                    <img src="https://www.shutterstock.com/image-photo/kerala-style-beef-mutton-dry-600nw-1943589751.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Beef Fry</h5>
+                      <p class="card-text">Tasty Beef Fry.</p>
+                      <h5 class="card-title text-danger">Rs: 199.00</h5>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                  </div>
+
+
+            </div>
+
+            <div class="col-3">
+
+                <div class="card text-center border border-2 border-warning bg-dark" style="width: 18rem;">
+                    <img src="https://recipes.net/wp-content/uploads/2024/01/how-to-eat-for-more-than-one-dosha-1706085501.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Dosa</h5>
+                      <p class="card-text text-light">Tasty Dosa.</p>
+                      <h5 class="card-title text-danger">Rs: 199.00</h5>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                  </div>
+
+
+            </div>
+
+
+
+            <div class="col-3">
+
+                <div class="card text-center border border-2 border-warning" style="width: 18rem;">
+                    <img src="https://t3.ftcdn.net/jpg/03/24/50/54/360_F_324505480_RTE4AmVPsYP96f99g88gEwabe65mSvak.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mandi</h5>
+                      <p class="card-text">Tasty Mandi.</p>
+                      <h5 class="card-title text-danger">Rs: 250.0</h5>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                  </div>
+
+
+            </div>
+
+
+
+
+        </div>
+          <br><br><br>
+
+        <div class="row  ms-5">
+
+            <div class="col-3">
+
+                <div class="card text-center border border-2 border-warning" style="width: 18rem;">
+                    <img height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyXKirE0wgcSae9iPK9R4XBLGfTAX8AaUMPA&s" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Fish curry</h5>
+                      <p class="card-text">Tasty Fish.</p>
+                      <h5 class="card-title text-danger">Rs: 199.00</h5>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-3">
+            
+                <div class="card text-center border border-2 border-warning bg-dark" style="width: 18rem;">
+                    <img height="200px" src="https://www.awesomecuisine.com/wp-content/uploads/2007/11/Idli-with-sambar-and-chutney.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Idli</h5>
+                      <p class="card-text text-light">Tasty Idli.</p>
+                      <h5 class="card-title text-danger">Rs: 199.00</h5>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+
+                <div class="card text-center border border-2 border-warning" style="width: 18rem;">
+                    <img height="200px" src="https://preview.redd.it/8oxnulzkqza11.jpg?width=1080&crop=smart&auto=webp&s=bc181c76f336a48bbdc17ec7b99d18f9ecddb95c" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Chicken Fry</h5>
+                      <p class="card-text">Tasty Chicken Fry.</p>
+                      <h5 class="card-title text-danger">Rs: 199.00</h5>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-3">
+
+                <div class="card text-center border border-2 border-warning bg-dark" style="width: 18rem;">
+                    <img height="200px" src="https://www.kitchensanctuary.com/wp-content/uploads/2020/04/Chicken-Fried-Rice-square-FS-.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Friderice</h5>
+                      <p class="card-text text-light">Tasty Friderice .</p>
+                      <h5 class="card-title text-danger">Rs: 199.00</h5>
+                      <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                  </div>
+
+            </div>
+
+
+        </div>
+        <br>
+
+        
+
+      </div>
+    
+
+
+
+
+
+
+      <div class="container-fluid bg-light">
+        <br>
+
+        <h1 class="text-center fs-2  text-dark">juices</h1>
+        <br>
+
+        <div class="row ms-5" id="Juices">
+
+            <div class="col-3 ">
+
+                <div class="card text-center border border-2 border-warning bg-info" style="width: 18rem;">
+                    <img height="190px" src="https://static.toiimg.com/thumb/msid-80850219,width-1280,height-720,resizemode-4/80850219.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">mixed juice combo</h5>
+                      
+                      <h5 class="card-title text-danger">Rs:100</h5>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-3">
+              
+                <div class="card text-center border border-2 border-warning bg-info" style="width: 18rem;">
+                    <img src="https://static.india.com/wp-content/uploads/2023/06/Juice.jpg?impolicy=Medium_Resize&w=1200&h=800" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">mixed juice combo</h5>
+                      
+                      <h5 class="card-title text-danger">Rs: 180</h5>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+
+
+            </div>
+
+            <div class="col-3">
+
+                <div class="card text-center border border-2 border-warning" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCObil6bc_S3agVmku_C4U-PY8UZOPLBKKIQ&s" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">mixed juice combo</h5>
+                     
+                      <h5 class="card-title text-danger">Rs: 60</h5>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+
+
+            </div>
+
+
+
+            <div class="col-3">
+
+                <div class="card text-center border border-2 border-warning" style="width: 18rem;">
+                    <img height="195px" src="https://littlewest.com/cdn/shop/articles/cold-fighting-juices.jpg?v=1676645822" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">mixed juice combo</h5>
+                      
+                      <h5 class="card-title text-danger">Rs: 200.00</h5>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+
+<br><br><br>
+            </div>
+
+
+
+
+        </div>
+        
+
+
+        <div class="row ms-5">
+
+            <div class="col-3">
+
+                <div class="card text-center border border-2 border-warning" style="width: 18rem;">
+                    <img height="200px" src="https://i.pinimg.com/564x/c6/5c/7f/c65c7fc721671bded2314ee51511e9df.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">GreenApple Mojito </h5>
+                     
+                      <h5 class="card-title text-danger">Rs: 100.00</h5>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-3">
+            
+                <div class="card text-center border border-2 border-warning" style="width: 18rem;">
+                    <img height="200px" src="https://sansdrinks.com.au/cdn/shop/articles/Passionfruit-Mojito_242a0e0f-c219-4b6a-89d6-4b8b154814fe.jpg?v=1669771571" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Passion fruit Mojito</h5>
+                      
+                      <h5 class="card-title text-danger">Rs: 100.00</h5>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+
+                <div class="card text-center border border-2 border-warning bg-info" style="width: 18rem;">
+                    <img height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnZl3k2B5ua7lYjPOzZIK7MiHKPKYa4Bh2Lg&s" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Cocktail Mojito</h5>
+                     
+                      <h5 class="card-title text-danger">Rs: 100.00</h5>
+                      <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                  </div>
+            </div>
+
+
+       
+
+        <div class="col-3">
+
+            <div class="card text-center border border-2 border-warning bg-info" style="width: 18rem;">
+                <img height="200px" src="https://thatgirlcookshealthy.com/wp-content/uploads/2014/07/lime-mint-drink-image-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Mint lime</h5>
+                 
+                  <h5 class="card-title text-danger">Rs: 20</h5>
+                  <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div>
+        </div>
+
+
+    </div>
+
+      <br>  <br>
+</div>
+
+      </div>
+
+    
+
+      <!-- footer section -->
+
+      <div class="container-fluid bg-secondary" id="Footer">
+       <br>
+        <div class="row">
+            
+            <h1 class="text-center">Location</h1>
+            
+            <div class="col-6">
+            
+              <h1 class="text-white">Tasty Food Restaurant</h1>
+              <h4>Kochi</h4>
+              <h4>Malappuram</h4>
+              <h4>Kerala</h4>
+              <p>Tel: 545799</p>
+              <p>Email: tasty@email.com</p>
+              <p>Website: www.testy.com </p>
+            </div>
+
+            <div class="col-6">
+            
+           
+                <iframe width="90%" height="300px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62651.020615097776!2d76.02719179604433!3d11.061943149145238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba64a9be29b058f%3A0x23e371e0d4c30d8e!2sMalappuram%2C%20Kerala!5e0!3m2!1sen!2sin!4v1722746712230!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <br><br><br><br>
+      </div>
+
+      
+
+      
+    
+</body>
+</html>
